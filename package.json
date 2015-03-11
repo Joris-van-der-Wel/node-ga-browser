@@ -1,0 +1,53 @@
+{
+  "name": "ga-browser",
+  "version": "1.0.0",
+  "description": "Google Analytics for the browser as a browserify module",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Joris-van-der-Wel/node-ga-browser.git"
+  },
+  "keywords": [
+    "google",
+    "analytics",
+    "browser",
+    "browserify",
+    "require",
+    "commonjs",
+    "bundle",
+    "npm",
+    "isomorphic",
+    "api",
+    "CSP"
+  ],
+  "author": "Joris van der Wel <joris@jorisvanderwel.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Joris-van-der-Wel/node-ga-browser/issues"
+  },
+  "homepage": "https://github.com/Joris-van-der-Wel/node-ga-browser",
+  "jshintConfig": {
+    "node": true,
+    "bitwise": true,
+    "camelcase": true,
+    "curly": true,
+    "eqeqeq": true,
+    "forin": true,
+    "freeze": true,
+    "immed": true,
+    "indent": 8,
+    "latedef": true,
+    "newcap": true,
+    "noarg": true,
+    "nonbsp": true,
+    "nonew": true,
+    "quotmark": "single",
+    "undef": true,
+    "unused": "vars",
+    "strict": true,
+    "laxbreak": true
+  },
+  "dependencies": {
+    "escape-html": "^1.0.1"
+  }
+}
